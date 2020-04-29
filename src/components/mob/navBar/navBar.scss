@@ -1,0 +1,38 @@
+.nav_container{
+    max-width: 500px;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: #111;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    z-index: 9999;
+}
+.nav_logo{
+    width: 20%;
+    img{
+        width: 100%;
+    }
+}
+.nav_title{
+    width: 30%;
+    height: 100%;
+    line-height: 50px;
+    color: #f7c695;
+    text-align: center;
+}
+.nav_button{
+    width: 75px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #f7c695;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 50px;
+}
