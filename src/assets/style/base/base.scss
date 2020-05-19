@@ -1,8 +1,13 @@
 // 移动端 && pc端 公共样式
+@import './../icon/iconfont.css';
 *{padding: 0;margin:0;}
 a{ text-decoration: none; outline: none;}
+img{ width:100%;display: block;}
+li, ol{list-style: none;}
+.circleImg{ border-radius: 100%; overflow: hidden;}
 .container{
     width:100%;
     position: relative;
-    background-color: #fff;
+    background-color: #000;
 }
+input{background-color: transparent; outline: none; color: #fff;border: none;}

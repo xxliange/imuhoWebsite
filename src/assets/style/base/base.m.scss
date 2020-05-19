@@ -1,9 +1,10 @@
 // 移动端公共样式
+html{
+    background-color: #000;
+}
 .m_page_container{
     max-width: 500px;
     position: relative;
-    min-height: 100vh;
-    background-color: #000;
     color: #fff;
     margin: 0 auto;
 }

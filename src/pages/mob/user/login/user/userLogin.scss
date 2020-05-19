@@ -1,0 +1,57 @@
+.m_login_forReg{
+    width: 100%;
+    padding: 20px 0;
+    font-size: 14px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.m_login_three{
+    width: 100%;
+    margin-top: 20px;
+    .m_login_threeTitle{
+        width: 100%;
+        position: relative;
+        font-size: 16px;
+        color: #f7c695;
+        text-align: center;
+    }
+    .m_login_threeTitle::before{
+        content:'';
+        display: block;
+        width: 32%;
+        height: 2px;
+        background-color: #f7c695;
+        position: absolute;
+        top: 50%;
+        left: 16%;
+        transform: translate(-50%, -50%);
+    }
+    .m_login_threeTitle::after{
+        content:'';
+        display: block;
+        width: 32%;
+        height: 2px;
+        background-color: #f7c695;
+        position: absolute;
+        top: 50%;
+        right: 16%;
+        transform: translate(50%, -50%);
+    }
+    .m_login_threeMain{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        margin-top: 20px;
+        .m_login_threeItem{
+            height: 100%;
+            flex-grow: 1;
+            img{
+                width: 50px;
+                height: 50px;
+                display: block;
+                margin: 0 auto;
+            }
+        }
+    }
+}

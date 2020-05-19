@@ -19,6 +19,31 @@
         width: 100%;
     }
 }
+.nav_back{
+    width: 80px;
+    height: 32px;
+    color: #f7c695;
+    border-radius: 30px;
+    border: 1px solid #f7c695;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    box-sizing: border-box;
+    position: relative;
+    a{
+        color: #f7c695;
+    }
+    .nav_backLine{
+        width: 1px;
+        height: 100%;
+        background: #f7c695;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
 .nav_title{
     width: 30%;
     height: 100%;

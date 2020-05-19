@@ -1,8 +1,13 @@
 <template>
-    <!-- 组件内顶部导航栏 -->
-    <nav class="container nav_container">
+    <div>
+        <!-- 组件内顶部导航栏 -->
+        <nav class="container nav_container">
 
-    </nav>
+        </nav>
+        <div style="padding-top:50px">
+            <router-view />
+        </div>
+    </div>
 </template>
 
 <script>
